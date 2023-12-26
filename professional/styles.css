@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* light gray background */
+}
+
+.container {
+  text-align: center;
+  margin-top: 100px;
+  padding: 50px;
+  background-color: #fff; /* white background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* shadow effect */
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #FF5733; /* orange color */
+}
+
+p {
+  font-size: 1.5em;
+  color: #33FF57; /* green color */
+}
+
+.contact-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #337AB7; /* blue color */
+  color: #fff; /* white text color */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s; /* smooth transition */
+}
+
+.contact-btn:hover {
+  background-color: #286090; /* darker blue on hover */
+}
